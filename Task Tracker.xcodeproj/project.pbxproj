@@ -12,6 +12,20 @@
 		937ED9B41FB1F63900DEA4F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937ED9B21FB1F63900DEA4F3 /* Main.storyboard */; };
 		937ED9B91FB1F63900DEA4F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937ED9B81FB1F63900DEA4F3 /* Assets.xcassets */; };
 		937ED9BC1FB1F63900DEA4F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937ED9BA1FB1F63900DEA4F3 /* LaunchScreen.storyboard */; };
+		937ED9CB1FB1F94A00DEA4F3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ED9CA1FB1F94A00DEA4F3 /* Coordinator.swift */; };
+		937ED9CD1FB1F97000DEA4F3 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ED9CC1FB1F97000DEA4F3 /* ApplicationCoordinator.swift */; };
+		937ED9D01FB1F9CC00DEA4F3 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ED9CF1FB1F9CC00DEA4F3 /* BaseCoordinator.swift */; };
+		937ED9D21FB1FA1300DEA4F3 /* DeepLinkOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ED9D11FB1FA1300DEA4F3 /* DeepLinkOption.swift */; };
+		937ED9D61FB1FD0C00DEA4F3 /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ED9D51FB1FD0C00DEA4F3 /* CoordinatorFactory.swift */; };
+		937ED9D91FB1FD8600DEA4F3 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ED9D81FB1FD8600DEA4F3 /* Presentable.swift */; };
+		937ED9DC1FB1FF1000DEA4F3 /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ED9DB1FB1FF1000DEA4F3 /* RouterProtocol.swift */; };
+		937ED9DE1FB1FFF800DEA4F3 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ED9DD1FB1FFF800DEA4F3 /* Router.swift */; };
+		937ED9E21FB2068000DEA4F3 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ED9E11FB2068000DEA4F3 /* AuthCoordinator.swift */; };
+		937ED9E41FB2068D00DEA4F3 /* AuthCoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ED9E31FB2068D00DEA4F3 /* AuthCoordinatorOutput.swift */; };
+		937ED9E61FB2089C00DEA4F3 /* AuthModulesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ED9E51FB2089C00DEA4F3 /* AuthModulesFactory.swift */; };
+		937ED9EA1FB2090900DEA4F3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ED9E91FB2090900DEA4F3 /* LoginView.swift */; };
+		937ED9EC1FB2091C00DEA4F3 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ED9EB1FB2091C00DEA4F3 /* BaseView.swift */; };
+		937ED9EE1FB20A0D00DEA4F3 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ED9ED1FB20A0D00DEA4F3 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,20 @@
 		937ED9B81FB1F63900DEA4F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937ED9BB1FB1F63900DEA4F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		937ED9BD1FB1F63900DEA4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937ED9CA1FB1F94A00DEA4F3 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		937ED9CC1FB1F97000DEA4F3 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		937ED9CF1FB1F9CC00DEA4F3 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		937ED9D11FB1FA1300DEA4F3 /* DeepLinkOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkOption.swift; sourceTree = "<group>"; };
+		937ED9D51FB1FD0C00DEA4F3 /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
+		937ED9D81FB1FD8600DEA4F3 /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		937ED9DB1FB1FF1000DEA4F3 /* RouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+		937ED9DD1FB1FFF800DEA4F3 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		937ED9E11FB2068000DEA4F3 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		937ED9E31FB2068D00DEA4F3 /* AuthCoordinatorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinatorOutput.swift; sourceTree = "<group>"; };
+		937ED9E51FB2089C00DEA4F3 /* AuthModulesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModulesFactory.swift; sourceTree = "<group>"; };
+		937ED9E91FB2090900DEA4F3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		937ED9EB1FB2091C00DEA4F3 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		937ED9ED1FB20A0D00DEA4F3 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +82,8 @@
 		937ED9AD1FB1F63900DEA4F3 /* Task Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				937ED9C51FB1F83100DEA4F3 /* Storyboards */,
 				937ED9C41FB1F82A00DEA4F3 /* Classes */,
+				937ED9C51FB1F83100DEA4F3 /* Storyboards */,
 				937ED9C31FB1F82600DEA4F3 /* Resources */,
 			);
 			path = "Task Tracker";
@@ -73,9 +101,13 @@
 		937ED9C41FB1F82A00DEA4F3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				937ED9DF1FB2066000DEA4F3 /* Flow */,
+				937ED9DA1FB1FF0100DEA4F3 /* Router */,
+				937ED9C61FB1F84200DEA4F3 /* Application */,
+				937ED9CE1FB1F9C000DEA4F3 /* Coordinators */,
+				937ED9D41FB1FCF200DEA4F3 /* Factories */,
 				937ED9C81FB1F85B00DEA4F3 /* Models */,
 				937ED9C71FB1F84B00DEA4F3 /* ViewControllers */,
-				937ED9C61FB1F84200DEA4F3 /* Application */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -93,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				937ED9AE1FB1F63900DEA4F3 /* AppDelegate.swift */,
+				937ED9CC1FB1F97000DEA4F3 /* ApplicationCoordinator.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -110,6 +143,80 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		937ED9CE1FB1F9C000DEA4F3 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				937ED9D71FB1FD6200DEA4F3 /* Protocols */,
+				937ED9D31FB1FA3300DEA4F3 /* Helpers */,
+				937ED9CF1FB1F9CC00DEA4F3 /* BaseCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		937ED9D31FB1FA3300DEA4F3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				937ED9D11FB1FA1300DEA4F3 /* DeepLinkOption.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		937ED9D41FB1FCF200DEA4F3 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				937ED9D51FB1FD0C00DEA4F3 /* CoordinatorFactory.swift */,
+				937ED9E51FB2089C00DEA4F3 /* AuthModulesFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		937ED9D71FB1FD6200DEA4F3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				937ED9CA1FB1F94A00DEA4F3 /* Coordinator.swift */,
+				937ED9D81FB1FD8600DEA4F3 /* Presentable.swift */,
+				937ED9EB1FB2091C00DEA4F3 /* BaseView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		937ED9DA1FB1FF0100DEA4F3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				937ED9DB1FB1FF1000DEA4F3 /* RouterProtocol.swift */,
+				937ED9DD1FB1FFF800DEA4F3 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		937ED9DF1FB2066000DEA4F3 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				937ED9E01FB2066400DEA4F3 /* Login Flow */,
+			);
+			name = Flow;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		937ED9E01FB2066400DEA4F3 /* Login Flow */ = {
+			isa = PBXGroup;
+			children = (
+				937ED9E71FB208CF00DEA4F3 /* Controllers */,
+				937ED9E11FB2068000DEA4F3 /* AuthCoordinator.swift */,
+				937ED9E31FB2068D00DEA4F3 /* AuthCoordinatorOutput.swift */,
+			);
+			path = "Login Flow";
+			sourceTree = "<group>";
+		};
+		937ED9E71FB208CF00DEA4F3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				937ED9E91FB2090900DEA4F3 /* LoginView.swift */,
+				937ED9ED1FB20A0D00DEA4F3 /* SignUpView.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,8 +291,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937ED9DC1FB1FF1000DEA4F3 /* RouterProtocol.swift in Sources */,
+				937ED9E61FB2089C00DEA4F3 /* AuthModulesFactory.swift in Sources */,
+				937ED9D01FB1F9CC00DEA4F3 /* BaseCoordinator.swift in Sources */,
+				937ED9DE1FB1FFF800DEA4F3 /* Router.swift in Sources */,
+				937ED9D91FB1FD8600DEA4F3 /* Presentable.swift in Sources */,
+				937ED9E21FB2068000DEA4F3 /* AuthCoordinator.swift in Sources */,
 				937ED9B11FB1F63900DEA4F3 /* ViewController.swift in Sources */,
+				937ED9D61FB1FD0C00DEA4F3 /* CoordinatorFactory.swift in Sources */,
+				937ED9EA1FB2090900DEA4F3 /* LoginView.swift in Sources */,
 				937ED9AF1FB1F63900DEA4F3 /* AppDelegate.swift in Sources */,
+				937ED9CB1FB1F94A00DEA4F3 /* Coordinator.swift in Sources */,
+				937ED9E41FB2068D00DEA4F3 /* AuthCoordinatorOutput.swift in Sources */,
+				937ED9EE1FB20A0D00DEA4F3 /* SignUpView.swift in Sources */,
+				937ED9EC1FB2091C00DEA4F3 /* BaseView.swift in Sources */,
+				937ED9D21FB1FA1300DEA4F3 /* DeepLinkOption.swift in Sources */,
+				937ED9CD1FB1F97000DEA4F3 /* ApplicationCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
