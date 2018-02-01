@@ -14,14 +14,10 @@
 		937ED9BC1FB1F63900DEA4F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937ED9BA1FB1F63900DEA4F3 /* LaunchScreen.storyboard */; };
 		937ED9FF1FB3203800DEA4F3 /* RemoteRequesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ED9FE1FB3203700DEA4F3 /* RemoteRequesting.swift */; };
 		937EDA011FB3207D00DEA4F3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937EDA001FB3207D00DEA4F3 /* Request.swift */; };
+		A2E583DC20226F2700EAEF79 /* NSManagedObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E583DB20226F2700EAEF79 /* NSManagedObjectExtensions.swift */; };
 		A2F26C75202248CE008A5704 /* RemoteLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C74202248CE008A5704 /* RemoteLoading.swift */; };
 		A2F26C7A20224A64008A5704 /* FirebaseObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C7920224A64008A5704 /* FirebaseObserver.swift */; };
 		A2F26C7C20224EDD008A5704 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C7B20224EDD008A5704 /* DataSource.swift */; };
-		A2F26C84202251B1008A5704 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C83202251B1008A5704 /* Entity.swift */; };
-		A2F26C86202251B6008A5704 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C85202251B6008A5704 /* DAO.swift */; };
-		A2F26C8E202251CD008A5704 /* CoreDataConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C89202251CD008A5704 /* CoreDataConfiguration.swift */; };
-		A2F26C8F202251CD008A5704 /* CoreDataDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C8B202251CD008A5704 /* CoreDataDAO.swift */; };
-		A2F26C90202251CD008A5704 /* CoreDataTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C8D202251CD008A5704 /* CoreDataTranslator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,14 +30,10 @@
 		937ED9BD1FB1F63900DEA4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		937ED9FE1FB3203700DEA4F3 /* RemoteRequesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteRequesting.swift; sourceTree = "<group>"; };
 		937EDA001FB3207D00DEA4F3 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		A2E583DB20226F2700EAEF79 /* NSManagedObjectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObjectExtensions.swift; sourceTree = "<group>"; };
 		A2F26C74202248CE008A5704 /* RemoteLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLoading.swift; sourceTree = "<group>"; };
 		A2F26C7920224A64008A5704 /* FirebaseObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseObserver.swift; sourceTree = "<group>"; };
 		A2F26C7B20224EDD008A5704 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
-		A2F26C83202251B1008A5704 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
-		A2F26C85202251B6008A5704 /* DAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
-		A2F26C89202251CD008A5704 /* CoreDataConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataConfiguration.swift; sourceTree = "<group>"; };
-		A2F26C8B202251CD008A5704 /* CoreDataDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataDAO.swift; sourceTree = "<group>"; };
-		A2F26C8D202251CD008A5704 /* CoreDataTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTranslator.swift; sourceTree = "<group>"; };
 		A5CBCACDB2750934C3A0D5BF /* Pods_Task_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7EB50B732EFA5F1442C956 /* Pods-Task Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Task Tracker/Pods-Task Tracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,8 +100,7 @@
 		937ED9C41FB1F82A00DEA4F3 /* Abstract */ = {
 			isa = PBXGroup;
 			children = (
-				A2F26C8020225066008A5704 /* Entity */,
-				A2F26C7D2022502B008A5704 /* Storage */,
+				A2E583DA20226F1000EAEF79 /* NSManagedObjectExtensions */,
 				937EDA021FB32C4200DEA4F3 /* DataSource */,
 				937ED9FD1FB3201600DEA4F3 /* Request */,
 				937ED9EF1FB3061800DEA4F3 /* RemoteLoading */,
@@ -167,55 +158,12 @@
 			path = DataSource;
 			sourceTree = "<group>";
 		};
-		A2F26C7D2022502B008A5704 /* Storage */ = {
+		A2E583DA20226F1000EAEF79 /* NSManagedObjectExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				A2F26C87202251CD008A5704 /* CoreDataDAO */,
-				A2F26C85202251B6008A5704 /* DAO.swift */,
+				A2E583DB20226F2700EAEF79 /* NSManagedObjectExtensions.swift */,
 			);
-			path = Storage;
-			sourceTree = "<group>";
-		};
-		A2F26C8020225066008A5704 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				A2F26C83202251B1008A5704 /* Entity.swift */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		A2F26C87202251CD008A5704 /* CoreDataDAO */ = {
-			isa = PBXGroup;
-			children = (
-				A2F26C88202251CD008A5704 /* Configuration */,
-				A2F26C8A202251CD008A5704 /* DAO */,
-				A2F26C8C202251CD008A5704 /* Translator */,
-			);
-			path = CoreDataDAO;
-			sourceTree = "<group>";
-		};
-		A2F26C88202251CD008A5704 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				A2F26C89202251CD008A5704 /* CoreDataConfiguration.swift */,
-			);
-			path = Configuration;
-			sourceTree = "<group>";
-		};
-		A2F26C8A202251CD008A5704 /* DAO */ = {
-			isa = PBXGroup;
-			children = (
-				A2F26C8B202251CD008A5704 /* CoreDataDAO.swift */,
-			);
-			path = DAO;
-			sourceTree = "<group>";
-		};
-		A2F26C8C202251CD008A5704 /* Translator */ = {
-			isa = PBXGroup;
-			children = (
-				A2F26C8D202251CD008A5704 /* CoreDataTranslator.swift */,
-			);
-			path = Translator;
+			path = NSManagedObjectExtensions;
 			sourceTree = "<group>";
 		};
 		DFD6DF3124FF177C0FECC08F /* Pods */ = {
@@ -362,15 +310,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2F26C86202251B6008A5704 /* DAO.swift in Sources */,
 				A2F26C7C20224EDD008A5704 /* DataSource.swift in Sources */,
+				A2E583DC20226F2700EAEF79 /* NSManagedObjectExtensions.swift in Sources */,
 				A2F26C7A20224A64008A5704 /* FirebaseObserver.swift in Sources */,
-				A2F26C8F202251CD008A5704 /* CoreDataDAO.swift in Sources */,
-				A2F26C8E202251CD008A5704 /* CoreDataConfiguration.swift in Sources */,
-				A2F26C84202251B1008A5704 /* Entity.swift in Sources */,
 				937EDA011FB3207D00DEA4F3 /* Request.swift in Sources */,
 				937ED9AF1FB1F63900DEA4F3 /* AppDelegate.swift in Sources */,
-				A2F26C90202251CD008A5704 /* CoreDataTranslator.swift in Sources */,
 				937ED9FF1FB3203800DEA4F3 /* RemoteRequesting.swift in Sources */,
 				A2F26C75202248CE008A5704 /* RemoteLoading.swift in Sources */,
 			);

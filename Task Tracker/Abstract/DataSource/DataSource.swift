@@ -7,15 +7,16 @@
 //
 
 import Foundation
+import CoreData
 
-struct DataSource<Model: Entity> {
+struct DataSource<Model: NSManagedObject & Codable> {
     
     var loader: RemoteFetching?
-    var storage: DAO<Model>?
+    var context: NSManagedObjectContext?
     
-    init(loader: RemoteFetching?, storage: DAO<Model>?) {
+    init(loader: RemoteFetching?, context: NSManagedObjectContext) {
         self.loader = loader
-        self.storage = storage
+        self.context = context
     }
     
     
