@@ -14,10 +14,17 @@
 		937ED9BC1FB1F63900DEA4F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937ED9BA1FB1F63900DEA4F3 /* LaunchScreen.storyboard */; };
 		937ED9FF1FB3203800DEA4F3 /* RemoteRequesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937ED9FE1FB3203700DEA4F3 /* RemoteRequesting.swift */; };
 		937EDA011FB3207D00DEA4F3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937EDA001FB3207D00DEA4F3 /* Request.swift */; };
-		A2E583DC20226F2700EAEF79 /* NSManagedObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E583DB20226F2700EAEF79 /* NSManagedObjectExtensions.swift */; };
+		A2068AE22045F6BF00A84C2C /* CourseProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2068AE02045F6BF00A84C2C /* CourseProject.xcdatamodeld */; };
+		A29BD5B72091259200FB1C44 /* CoreDataDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29BD5B62091259200FB1C44 /* CoreDataDAO.swift */; };
+		A29BD5B9209125B600FB1C44 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29BD5B8209125B600FB1C44 /* DAO.swift */; };
+		A29BD5BB209125D900FB1C44 /* CoreDataTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29BD5BA209125D900FB1C44 /* CoreDataTranslator.swift */; };
+		A29BD5BD2091266400FB1C44 /* CoreDataConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29BD5BC2091266400FB1C44 /* CoreDataConfiguration.swift */; };
+		A29BD5BF209126A300FB1C44 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29BD5BE209126A300FB1C44 /* Entity.swift */; };
+		A29BD5C22091372700FB1C44 /* ChannelsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29BD5C12091372700FB1C44 /* ChannelsPresenter.swift */; };
+		A29BD5C52091381400FB1C44 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29BD5C42091381400FB1C44 /* Channel.swift */; };
+		A2D6895220547A9700146AA3 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D6895120547A9700146AA3 /* DataSource.swift */; };
 		A2F26C75202248CE008A5704 /* RemoteLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C74202248CE008A5704 /* RemoteLoading.swift */; };
 		A2F26C7A20224A64008A5704 /* FirebaseObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C7920224A64008A5704 /* FirebaseObserver.swift */; };
-		A2F26C7C20224EDD008A5704 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C7B20224EDD008A5704 /* DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +37,17 @@
 		937ED9BD1FB1F63900DEA4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		937ED9FE1FB3203700DEA4F3 /* RemoteRequesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteRequesting.swift; sourceTree = "<group>"; };
 		937EDA001FB3207D00DEA4F3 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		A2E583DB20226F2700EAEF79 /* NSManagedObjectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObjectExtensions.swift; sourceTree = "<group>"; };
+		A2068AE12045F6BF00A84C2C /* CourseProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CourseProject.xcdatamodel; sourceTree = "<group>"; };
+		A29BD5B62091259200FB1C44 /* CoreDataDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDAO.swift; sourceTree = "<group>"; };
+		A29BD5B8209125B600FB1C44 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		A29BD5BA209125D900FB1C44 /* CoreDataTranslator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTranslator.swift; sourceTree = "<group>"; };
+		A29BD5BC2091266400FB1C44 /* CoreDataConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataConfiguration.swift; sourceTree = "<group>"; };
+		A29BD5BE209126A300FB1C44 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		A29BD5C12091372700FB1C44 /* ChannelsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsPresenter.swift; sourceTree = "<group>"; };
+		A29BD5C42091381400FB1C44 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		A2D6895120547A9700146AA3 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		A2F26C74202248CE008A5704 /* RemoteLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLoading.swift; sourceTree = "<group>"; };
 		A2F26C7920224A64008A5704 /* FirebaseObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseObserver.swift; sourceTree = "<group>"; };
-		A2F26C7B20224EDD008A5704 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		A5CBCACDB2750934C3A0D5BF /* Pods_Task_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7EB50B732EFA5F1442C956 /* Pods-Task Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Task Tracker/Pods-Task Tracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,11 +93,11 @@
 		937ED9AD1FB1F63900DEA4F3 /* Task Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				937ED9C61FB1F84200DEA4F3 /* Application */,
-				937ED9C71FB1F84B00DEA4F3 /* ViewControllers */,
 				937ED9C41FB1F82A00DEA4F3 /* Abstract */,
-				937ED9C51FB1F83100DEA4F3 /* Storyboards */,
+				937ED9C61FB1F84200DEA4F3 /* Application */,
+				A2068AD42045EEF200A84C2C /* Concrete */,
 				937ED9C31FB1F82600DEA4F3 /* Resources */,
+				937ED9C51FB1F83100DEA4F3 /* Storyboards */,
 			);
 			path = "Task Tracker";
 			sourceTree = "<group>";
@@ -93,6 +107,7 @@
 			children = (
 				937ED9B81FB1F63900DEA4F3 /* Assets.xcassets */,
 				937ED9BD1FB1F63900DEA4F3 /* Info.plist */,
+				A2068AE02045F6BF00A84C2C /* CourseProject.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -100,8 +115,9 @@
 		937ED9C41FB1F82A00DEA4F3 /* Abstract */ = {
 			isa = PBXGroup;
 			children = (
-				A2E583DA20226F1000EAEF79 /* NSManagedObjectExtensions */,
-				937EDA021FB32C4200DEA4F3 /* DataSource */,
+				A29BD5B52091258600FB1C44 /* DAO */,
+				A29BD5B220911AC100FB1C44 /* Entity */,
+				A2D6895020547A7D00146AA3 /* DataSource */,
 				937ED9FD1FB3201600DEA4F3 /* Request */,
 				937ED9EF1FB3061800DEA4F3 /* RemoteLoading */,
 			);
@@ -125,13 +141,6 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
-		937ED9C71FB1F84B00DEA4F3 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		937ED9EF1FB3061800DEA4F3 /* RemoteLoading */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,20 +159,72 @@
 			path = Request;
 			sourceTree = "<group>";
 		};
-		937EDA021FB32C4200DEA4F3 /* DataSource */ = {
+		A2068AD42045EEF200A84C2C /* Concrete */ = {
 			isa = PBXGroup;
 			children = (
-				A2F26C7B20224EDD008A5704 /* DataSource.swift */,
+				A29BD5C32091380900FB1C44 /* Models */,
+				A2D689472054734900146AA3 /* Flows */,
 			);
-			path = DataSource;
+			path = Concrete;
 			sourceTree = "<group>";
 		};
-		A2E583DA20226F1000EAEF79 /* NSManagedObjectExtensions */ = {
+		A29BD5B220911AC100FB1C44 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				A2E583DB20226F2700EAEF79 /* NSManagedObjectExtensions.swift */,
+				A29BD5BE209126A300FB1C44 /* Entity.swift */,
 			);
-			path = NSManagedObjectExtensions;
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A29BD5B52091258600FB1C44 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				A29BD5B62091259200FB1C44 /* CoreDataDAO.swift */,
+				A29BD5B8209125B600FB1C44 /* DAO.swift */,
+				A29BD5BA209125D900FB1C44 /* CoreDataTranslator.swift */,
+				A29BD5BC2091266400FB1C44 /* CoreDataConfiguration.swift */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		A29BD5C02091371B00FB1C44 /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				A29BD5C12091372700FB1C44 /* ChannelsPresenter.swift */,
+			);
+			path = Channels;
+			sourceTree = "<group>";
+		};
+		A29BD5C32091380900FB1C44 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A29BD5C42091381400FB1C44 /* Channel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A2D689472054734900146AA3 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				A2D689482054735100146AA3 /* Main */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		A2D689482054735100146AA3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A29BD5C02091371B00FB1C44 /* Channels */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A2D6895020547A7D00146AA3 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				A2D6895120547A9700146AA3 /* DataSource.swift */,
+			);
+			path = DataSource;
 			sourceTree = "<group>";
 		};
 		DFD6DF3124FF177C0FECC08F /* Pods */ = {
@@ -310,13 +371,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2F26C7C20224EDD008A5704 /* DataSource.swift in Sources */,
-				A2E583DC20226F2700EAEF79 /* NSManagedObjectExtensions.swift in Sources */,
 				A2F26C7A20224A64008A5704 /* FirebaseObserver.swift in Sources */,
 				937EDA011FB3207D00DEA4F3 /* Request.swift in Sources */,
+				A29BD5C22091372700FB1C44 /* ChannelsPresenter.swift in Sources */,
 				937ED9AF1FB1F63900DEA4F3 /* AppDelegate.swift in Sources */,
+				A29BD5B72091259200FB1C44 /* CoreDataDAO.swift in Sources */,
+				A2068AE22045F6BF00A84C2C /* CourseProject.xcdatamodeld in Sources */,
 				937ED9FF1FB3203800DEA4F3 /* RemoteRequesting.swift in Sources */,
+				A29BD5C52091381400FB1C44 /* Channel.swift in Sources */,
 				A2F26C75202248CE008A5704 /* RemoteLoading.swift in Sources */,
+				A29BD5BB209125D900FB1C44 /* CoreDataTranslator.swift in Sources */,
+				A29BD5B9209125B600FB1C44 /* DAO.swift in Sources */,
+				A29BD5BD2091266400FB1C44 /* CoreDataConfiguration.swift in Sources */,
+				A29BD5BF209126A300FB1C44 /* Entity.swift in Sources */,
+				A2D6895220547A9700146AA3 /* DataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +523,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VAEJG6X4CW;
+				DEVELOPMENT_TEAM = 38QC7Z85MT;
 				INFOPLIST_FILE = "Task Tracker/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Task-Tracker";
@@ -471,7 +539,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VAEJG6X4CW;
+				DEVELOPMENT_TEAM = 38QC7Z85MT;
 				INFOPLIST_FILE = "Task Tracker/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Task-Tracker";
@@ -503,6 +571,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2068AE02045F6BF00A84C2C /* CourseProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2068AE12045F6BF00A84C2C /* CourseProject.xcdatamodel */,
+			);
+			currentVersion = A2068AE12045F6BF00A84C2C /* CourseProject.xcdatamodel */;
+			name = CourseProject.xcdatamodeld;
+			path = ../../CourseProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 937ED9A31FB1F63800DEA4F3 /* Project object */;
 }

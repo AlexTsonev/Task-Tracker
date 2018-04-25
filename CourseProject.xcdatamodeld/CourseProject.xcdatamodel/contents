@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDAttachment" representedClassName="CDAttachment" syncable="YES" codeGenerationType="class">
+        <attribute name="entryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="URI" syncable="YES"/>
+    </entity>
+    <entity name="CDChannel" representedClassName="CDChannel" syncable="YES" codeGenerationType="class">
+        <attribute name="entryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastChanged" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="lastMessage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDMessage" syncable="YES"/>
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDPerson" inverseName="channels" inverseEntity="CDPerson" syncable="YES"/>
+        <relationship name="messages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDMessage" inverseName="channel" inverseEntity="CDMessage" syncable="YES"/>
+    </entity>
+    <entity name="CDCurrentUser" representedClassName="CDCurrentUser" syncable="YES" codeGenerationType="class">
+        <attribute name="entryId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CDMessage" representedClassName="CDMessage" syncable="YES" codeGenerationType="class">
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="entryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="author" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDPerson" syncable="YES"/>
+        <relationship name="channel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDChannel" inverseName="messages" inverseEntity="CDChannel" syncable="YES"/>
+    </entity>
+    <entity name="CDPerson" representedClassName="CDPerson" syncable="YES" codeGenerationType="class">
+        <attribute name="entryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="channels" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDChannel" inverseName="members" inverseEntity="CDChannel" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CDAttachment" positionX="-270" positionY="81" width="128" height="75"/>
+        <element name="CDChannel" positionX="-315" positionY="-45" width="128" height="120"/>
+        <element name="CDCurrentUser" positionX="-162" positionY="21" width="128" height="60"/>
+        <element name="CDMessage" positionX="-279" positionY="72" width="128" height="120"/>
+        <element name="CDPerson" positionX="-459" positionY="81" width="128" height="90"/>
+    </elements>
+</model>

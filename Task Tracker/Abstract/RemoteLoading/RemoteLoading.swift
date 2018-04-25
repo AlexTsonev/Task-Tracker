@@ -8,16 +8,16 @@
 
 import Foundation
 
-typealias LoadingSuccess = (Data) -> ()
-typealias LoadingFailure = (Error) -> ()
 
-protocol RemoteLoading {
-    func load(success: @escaping LoadingSuccess, failure: @escaping LoadingFailure)
-}
 
-protocol RemoteObserving {
-    func observe(completion: @escaping LoadingSuccess, failure: @escaping LoadingFailure)
+protocol RemoteFetching {
+    
+    typealias RemoteLoadingSuccess = ([Entity]) -> ()
+    typealias RemoteLoadingFailure = (Error) -> ()
+    
+    func load(success: @escaping RemoteLoadingSuccess, failure: @escaping RemoteLoadingFailure)
+    func observe(success: @escaping RemoteLoadingSuccess, failure: @escaping RemoteLoadingFailure)
+
     func removeAllObservers()
 }
 
-typealias RemoteFetching = RemoteLoading & RemoteObserving

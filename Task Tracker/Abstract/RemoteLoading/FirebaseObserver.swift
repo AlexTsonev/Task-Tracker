@@ -9,7 +9,7 @@
 import Foundation
 import FirebaseDatabase
 
-struct FirebaseObserver: RemoteFetching {
+class FirebaseObserver<Model: Entity>: RemoteFetching {
     
     fileprivate var reference: DatabaseReference
     
@@ -17,21 +17,29 @@ struct FirebaseObserver: RemoteFetching {
         reference = Database.database().reference(withPath: path)
     }
     
-    func load(success: @escaping LoadingSuccess, failure: @escaping LoadingFailure) {
+    deinit {
+        removeAllObservers()
+    }
+    
+    func load(success: @escaping RemoteLoadingSuccess, failure: @escaping RemoteLoadingFailure) {
         reference.observeSingleEvent(of: .value) { (snapshot) in
-            guard let data = snapshot.value as? Data else {
+            guard let data = snapshot.value as? Data,
+                let model = try? JSONDecoder().decode(Model.self, from: data) else {
                 return
             }
-            success(data)
+            
+            success(model.collection)
         }
     }
     
-    func observe(completion: @escaping LoadingSuccess, failure: @escaping LoadingFailure) {
+    func observe(success: @escaping RemoteLoadingSuccess, failure: @escaping RemoteLoadingFailure) {
         reference.observe(.value) { (snapshot) in
-            guard let data = snapshot.value as? Data else {
-                return
+            guard let data = snapshot.value as? Data,
+                let model = try? JSONDecoder().decode(Model.self, from: data) else {
+                    return
             }
-            completion(data)
+            
+            success(model.collection)
         }
         
     }
@@ -39,4 +47,5 @@ struct FirebaseObserver: RemoteFetching {
     func removeAllObservers() {
         reference.removeAllObservers()
     }
+
 }
